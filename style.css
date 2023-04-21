@@ -1,0 +1,47 @@
+.toast {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+.toast-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+  
+.toast-header small {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+  
+.toast-body {
+    line-height: 1.5;
+}
+
+div.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.hov-cls{
+    padding: 8px;
+    font-size: 1rem;
+    background-color: darkgray;
+    border-color: darkgray;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+div.click:hover + div.toast{
+     display: block;
+}
+
